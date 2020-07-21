@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DiErGeApi</name>
+    </assembly>
+    <members>
+        <member name="M:FirstApi.Controllers.ValuesController.Get">
+            <summary>
+            获取文本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FirstApi.Controllers.ValuesController.Sum(System.Int32,System.Int32)">
+            <summary>
+            两数相加
+            </summary>
+            <param name="num1">第一个数</param>
+            <param name="num2">第二个数</param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstApi.Controllers.ValuesController.Subtract(FirstApi.Controllers.Param)">
+            <summary>
+            两数相减
+            </summary>
+            <param name="param">参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:FirstApi.Controllers.Param">
+            <summary>
+            参数
+            </summary>
+        </member>
+        <member name="P:FirstApi.Controllers.Param.num1">
+            <summary>
+            第一个数
+            </summary>
+        </member>
+        <member name="P:FirstApi.Controllers.Param.num2">
+            <summary>
+            第二个数
+            </summary>
+        </member>
+    </members>
+</doc>
